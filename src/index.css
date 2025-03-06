@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+video::-webkit-media-controls-timeline {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  height: 5px;
+  margin: 0 10px;
+}
+
+video::-webkit-media-controls-play-button {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  color: white;
+}
+
+video::-webkit-media-controls-volume-slider {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  height: 5px;
+}
+
+/* Disney+ style font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.disney-plus-font {
+  font-family: 'Montserrat', 'Avenir', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
